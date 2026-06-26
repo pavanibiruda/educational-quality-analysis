@@ -1,6 +1,6 @@
 # 📊 Educational Quality Analysis Through Student Feedback
 
-A data mining project that analyzes student feedback to evaluate educational quality and identify factors influencing academic performance.
+A data mining project that analyzes student feedback to evaluate educational quality and identify the key factors influencing students' overall learning experience.
 
 ---
 
@@ -8,14 +8,14 @@ A data mining project that analyzes student feedback to evaluate educational qua
 
 This project applies data mining techniques to student feedback datasets to discover meaningful patterns and insights that can help improve educational quality.
 
-The analysis includes data preprocessing, dataset cleaning, feature selection, classification using WEKA (J48 Decision Tree), and extracting useful insights from student responses.
+The analysis includes data preprocessing, dataset cleaning, classification using the WEKA J48 Decision Tree algorithm, visualization, and extracting valuable insights from student responses.
 
 ---
 
 ## ✨ Features
 
 * Student feedback analysis
-* Data preprocessing
+* Data preprocessing and cleaning
 * Educational quality evaluation
 * Decision Tree (J48) Classification
 * Dataset visualization and analysis
@@ -38,10 +38,10 @@ educational-quality-analysis/
 │   └── student_feedback_advanced_600_records.arff
 │
 ├── Reports/
-│   └── Final project document.pdf
+│   └── Educational_Quality_Analysis_Report.pdf
 │
 ├── PPT's/
-│   └── Final ppt.pptx
+│   └── Educational_Quality_Analysis_Presentation.pptx
 │
 ├── screenshots/
 │   ├── classifier-output.png
@@ -94,9 +94,18 @@ educational-quality-analysis/
 
 ## 📈 Project Outcome
 
-The project analyzes student feedback data to identify trends and insights that can support better educational decision-making and improve overall learning quality.
+This project analyzes student feedback data to identify trends and insights that support better educational decision-making and improve overall learning quality.
 
-Using WEKA's J48 Decision Tree algorithm, the project classifies educational feedback and highlights the factors that most influence students' overall learning experience.
+Using the WEKA J48 Decision Tree algorithm, the project classifies student feedback and highlights the factors that have the greatest influence on students' overall educational experience.
+
+---
+
+## 🚀 Future Improvements
+
+* Apply additional machine learning algorithms for comparison.
+* Develop interactive dashboards for feedback visualization.
+* Automate data preprocessing workflows.
+* Improve classification accuracy using feature engineering and hyperparameter tuning.
 
 ---
 
